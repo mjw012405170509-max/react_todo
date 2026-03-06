@@ -1,0 +1,25 @@
+.overall_wrap {
+  background-color: #aaa;
+  border-radius: 5px;
+  width: 900px;
+}
+
+.upper_wrap > li {
+  list-style-type: none;
+}
+.upper_wrap {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+}
+.main_wrap > li {
+  list-style-type: none;
+}
+.main_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.writer {
+  margin-top: 30px;
+}
